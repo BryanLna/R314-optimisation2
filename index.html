@@ -4,8 +4,21 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Site vitrine</title>
+
+    <!-- OPTIMISATION POLICES -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <!-- Charger police sans bloquer -->
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+
+    <!-- CSS PRINCIPAL (extra.css fusionné dedans) -->
     <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/script.js"></script>
+
+    <!-- Script non-bloquant -->
+    <script src="js/script.js" defer></script>
+
   </head>
   <body>
     <div class="topbar">
@@ -33,24 +46,12 @@
       <div class="container">
         <h2>Galerie</h2>
         <div class="grid">
-          <div class="card">
-            <a href="img1.html"><img src="img/img1.webp" alt="Image 1" /></a>
-          </div>
-          <div class="card">
-            <a href="img2.html"><img src="img/img2.webp" alt="Image 2" /></a>
-          </div>
-          <div class="card">
-            <a href="img3.html"><img src="img/img3.webp" alt="Image 3" /></a>
-          </div>
-          <div class="card">
-            <a href="img4.html"><img src="img/img4.webp" alt="Image 4" /></a>
-          </div>
-          <div class="card">
-            <a href="img5.html"><img src="img/img5.webp" alt="Image 5" /></a>
-          </div>
-          <div class="card">
-            <a href="img6.html"><img src="img/img6.webp" alt="Image 6" /></a>
-          </div>
+          <div class="card"><a href="img1.html"><img src="img/img1.webp" alt="Image 1" /></a></div>
+          <div class="card"><a href="img2.html"><img src="img/img2.webp" alt="Image 2" /></a></div>
+          <div class="card"><a href="img3.html"><img src="img/img3.webp" alt="Image 3" /></a></div>
+          <div class="card"><a href="img4.html"><img src="img/img4.webp" alt="Image 4" /></a></div>
+          <div class="card"><a href="img5.html"><img src="img/img5.webp" alt="Image 5" /></a></div>
+          <div class="card"><a href="img6.html"><img src="img/img6.webp" alt="Image 6" /></a></div>
         </div>
       </div>
     </div>
@@ -59,26 +60,10 @@
       <div class="container">
         <h2>Fonctionnalités</h2>
         <div class="features-grid">
-          <div class="feature">
-            <div class="icon">⚡</div>
-            <h3>Design moderne</h3>
-            <p>Couleurs, ombres, grille responsive.</p>
-          </div>
-          <div class="feature">
-            <div class="icon">🧱</div>
-            <h3>Scripts</h3>
-            <p>Intégration de scripts pour effets visuels.</p>
-          </div>
-          <div class="feature">
-            <div class="icon">🖼️</div>
-            <h3>Images</h3>
-            <p>Galerie de visuels variés.</p>
-          </div>
-          <div class="feature">
-            <div class="icon">🔠</div>
-            <h3>Polices</h3>
-            <p>Typographie soignée.</p>
-          </div>
+          <div class="feature"><div class="icon">⚡</div><h3>Design moderne</h3><p>Couleurs, ombres, grille responsive.</p></div>
+          <div class="feature"><div class="icon">🧱</div><h3>Scripts</h3><p>Effets visuels.</p></div>
+          <div class="feature"><div class="icon">🖼️</div><h3>Images</h3><p>Visuels variés.</p></div>
+          <div class="feature"><div class="icon">🔠</div><h3>Polices</h3><p>Typographie soignée.</p></div>
         </div>
       </div>
     </div>
@@ -87,11 +72,11 @@
       <div class="container">
         <h2>Défis</h2>
         <ol>
-          <li>Analyser le comportement réseau et le rendu.</li>
+          <li>Analyser le comportement réseau.</li>
           <li>Identifier les ressources critiques.</li>
-          <li>Proposer des optimisations mesurables.</li>
-          <li>Comparer avant/après avec des outils de mesure.</li>
-          <li>Documenter la démarche.</li>
+          <li>Proposer des optimisations.</li>
+          <li>Comparer avant/après.</li>
+          <li>Documenter.</li>
         </ol>
       </div>
     </div>
@@ -102,6 +87,7 @@
         <p>© 2025 — BUT MMI Béziers - MAURIN N.</p>
       </div>
     </div>
+
     <script src="js/metrics.js" defer></script>
   </body>
 </html>

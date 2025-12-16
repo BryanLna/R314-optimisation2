@@ -200,6 +200,6 @@ a:hover {
 }  
 
 image-wrapper img{
-  width: 90%;
+  width: 90%!important;
   height: auto;
 }

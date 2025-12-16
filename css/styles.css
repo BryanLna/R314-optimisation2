@@ -198,3 +198,8 @@ a:hover {
   opacity: 0;
   transition: opacity 0.6s ease;
 }  
+
+image-wrapper img{
+  width: 200%;
+  height: auto;
+}
